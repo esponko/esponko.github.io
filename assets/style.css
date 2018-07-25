@@ -1,15 +1,23 @@
 body {
   background: papayawhip;
-  color: salmon
+  color: salmon;
+  font-family: system-ui, sans-serif;
+
 }
 
-  a {
-    color: white;
-    font-weight: bold;
+  nav {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+
+
   }
 
-  .primary-navigation {
-    background-color: pink;
-    color: black;
+  nav a {
     padding: 20px;
+
+  }
+
+  nav a.active {
+    background: salmon;
+
   }
