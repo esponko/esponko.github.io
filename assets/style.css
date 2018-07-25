@@ -2,14 +2,22 @@ body {
   background: papayawhip;
   color: salmon;
   font-family: system-ui, sans-serif;
-
 }
 
+h2 {
+  color: darksalmon;
+}
+
+h3 {
+  color: darksalmon;
+}
+
+img {
+  max-width: 100%;
+}
   nav {
     background-color: rgba(255, 255, 255, 0.25);
     display: flex;
-
-
   }
 
   nav a {
@@ -17,15 +25,27 @@ body {
     padding: 20px;
     text-decoration: none;
     transition: background-color 0.45s;
-
   }
 
 nav a:hover {
     background: rgba(255, 255, 255, 0.75);
-
 }
 
   nav a.active {
     background: salmon;
-
   }
+
+/* Cards */
+
+.cardgroup {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.20);
+  padding: 20px;
+  border: solid 10px salmon;
+  margin: 10px;
+}
