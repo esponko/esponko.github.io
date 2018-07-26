@@ -40,6 +40,7 @@ nav a:hover {
 
 .cardgroup {
   display: flex;
+  flex-direction: column;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -57,5 +58,10 @@ nav a:hover {
 .card:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.5);
   transform: scale(0.7);
+}
 
+@media (min-width: 500px) {
+  .cardgroup {
+    flex-direction: row;
+  }
 }
